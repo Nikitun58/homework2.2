@@ -1,6 +1,17 @@
 import java.time.temporal.ValueRange;
 
-public class state6 {public static void main(String[] args) {System.out.println("задание про боесеров или задание 6");
+public class state6 {public static void main(String[] args) {
+    //Задание 4-5:
+    var frog = 3.5;
+    System.out.println(frog);
+    frog=frog*10;
+    System.out.println(frog);
+    frog=frog/3.5;
+    System.out.println(frog);
+    frog=frog+4;
+    System.out.println(frog);
+    // Задание 6:
+    System.out.println("задание про боесеров или задание 6");
     var boxerweight1=78.2;
     System.out.println("Вес одного боксера " + boxerweight1+" кг.");
     var boxerweight2=82.7;
@@ -10,13 +21,14 @@ public class state6 {public static void main(String[] args) {System.out.println(
     var differenceweight=boxerweight1-boxerweight2;
         differenceweight=-differenceweight;
     System.out.println("разница между весами бойцов "+differenceweight+" кг.");
-
+    // Задание 7:
     System.out.println("ЗАДАНИЕ №7");
     var weightdifference=boxerweight2-boxerweight1;
     System.out.println("Разница 1 способ "+weightdifference+" кг.");
     var weightdifference2=boxerweight2%boxerweight1;
     System.out.println("Разница ввесе с использованием остатка от деления "+weightdifference2+" кг." );
-System.out.println("ЗАДАЧА №8");
+    // Задание 8:
+    System.out.println("ЗАДАЧА №8");
 var totalwork=640;
 var forone=8;
 System.out.println("Всего работников в компании – "+(totalwork/forone)+" человек");
